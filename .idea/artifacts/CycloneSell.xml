@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CycloneSell">
+    <output-path>$PROJECT_DIR$/out/artifacts/CycloneSell</output-path>
+    <root id="archive" name="CycloneSell.jar">
+      <element id="module-output" name="CycloneSell" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

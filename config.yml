@@ -1,0 +1,121 @@
+# Configuration for CycloneSell by DenialMC
+# reloadMessage: The message players see after reloading the plugin
+# noPermMessage: The message players see after trying to reload the plugin without permission
+# sellMessage: The message players see after selling items
+# priceMessage: The message players see after checking price
+# sellSignHeader: The sell sign header
+# buySignHeader: The buy sign header
+# priceSignHeader: The price sign header
+
+general:
+  reloadMessage: '&eSuccesfully reloaded CycloneSell!'
+  noPermMessage: '&4You do not have access to that command.'
+  sellMessage: '&eYou have sold items for &6$<value>&e!'
+  priceMessage: '&eThose items would earn you &6$<value>&e.'
+  buyMessage: '&eYou have bought items for &6$<value>&e!'
+  noMoneyMessage: '&cYou do not have enough money for that item!'
+  noItemsInPriceGUI: '&cYou did not place any items in!'
+settings:
+  sellSignHeader: '&a[Sell]'
+  priceSignHeader: '&6[Price]'
+  buySignHeader: '&c[Buy]'
+  sellShops:
+    D:
+      sellTitle: '&4Prison &9> &7Place items here!'
+      priceTitle: '&4Prison &9> &7Place items here!'
+      buyTitle: '&4Prison &9> &7Buy items here!'
+      rows: 1
+      buyRows: 1
+      buyRows: 1
+      prices:
+        COAL: 8
+        IRON_INGOT: 24
+        IRON_ORE: 12
+        WOOD: 1
+        COBBLESTONE: 1
+        STONE: 2
+      buyPrices:
+        COAL: 10
+        IRON_INGOT: 24
+        IRON_ORE: 12
+        WOOD: 1
+        COBBLESTONE: 1
+        STONE: 2
+    C:
+      sellTitle: '&4Prison &9> &7Place items here!'
+      priceTitle: '&4Prison &9> &7Place items here!'
+      buyTitle: '&4Prison &9> &7Buy items here!'
+      rows: 2
+      buyRows: 2
+      prices:
+        COAL: 8
+        IRON_INGOT: 24
+        GOLD_INGOT: 45
+        IRON_ORE: 12
+        GOLD_ORE: 22
+        WOOD: 1
+        SANDSTONE: 1
+      buyPrices:
+        COAL: 10
+        IRON_INGOT: 24
+        GOLD_INGOT: 45
+        IRON_ORE: 12
+        GOLD_ORE: 22
+        WOOD: 1
+        SANDSTONE: 1
+    B:
+      sellTitle: '&4Prison &9> &7Place items here!'
+      priceTitle: '&4Prison &9> &7Place items here!'
+      buyTitle: '&4Prison &9> &7Buy items here!'
+      rows: 3
+      buyRows: 3
+      prices:
+        COAL: 8
+        IRON_INGOT: 24
+        GOLD_INGOT: 45
+        IRON_ORE: 12
+        GOLD_ORE: 22
+        WOOD: 1
+        DIAMOND: 125
+        NETHERRACK: 1
+        STONE: 2
+      buyPrices:
+        COAL: 10
+        IRON_INGOT: 24
+        GOLD_INGOT: 45
+        IRON_ORE: 12
+        GOLD_ORE: 22
+        WOOD: 1
+        DIAMOND: 125
+        NETHERRACK: 1
+        STONE: 2
+    A:
+      sellTitle: '&4Prison &9> &7Place items here!'
+      priceTitle: '&4Prison &9> &7Place items here!'
+      buyTitle: '&4Prison &9> &7Buy items here!'
+      rows: 4
+      buyRows: 4
+      prices:
+        COAL: 8
+        IRON_INGOT: 24
+        GOLD_INGOT: 45
+        IRON_ORE: 12
+        GOLD_ORE: 22
+        WOOD: 1
+        DIAMOND: 125
+        REDSTONE: 8
+        EMERALD: 250
+        COBBLESTONE: 1
+        STONE: 2
+      buyPrices:
+        COAL: 10
+        IRON_INGOT: 24
+        GOLD_INGOT: 45
+        IRON_ORE: 12
+        GOLD_ORE: 22
+        WOOD: 1
+        DIAMOND: 125
+        REDSTONE: 8
+        EMERALD: 250
+        COBBLESTONE: 1
+        STONE: 2

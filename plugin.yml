@@ -1,0 +1,64 @@
+name: CycloneSell
+version: 1.0
+description: This plugin allows you to sell items. Developed for CycloneNetwork.
+main: com.denialmc.cyclonesell.CycloneSell
+author: DenialMC
+depends: [Vault]
+
+commands:
+  cyclonesell:
+    description: Reload the plugin
+    permission: cyclonesell.help
+    usage: "Usage: /cyclonesell [help/reload]"
+permissions:
+  cyclonesell.*:
+    description: Gives access to all permissions.
+    default: op
+    children:
+      cyclonesell.help: true
+      cyclonesell.reload: true
+      cyclonesell.sign: true
+  cyclonesell.sign:
+    description: Allows you to create and use signs.
+    default: op
+    children:
+      cyclonesell.sign.use: true
+      cyclonesell.sign.create: true
+  cyclonesell.sign.use:
+    description: Allows you to use signs.
+    default: true
+    children:
+      cyclonesell.sign.use.sell: true
+      cyclonesell.sign.use.price: true
+      cyclonesell.sign.use.buy: true
+  cyclonesell.sign.create:
+    description: Allows you to create signs.
+    default: op
+    children:
+      cyclonesell.sign.create.sell: true
+      cyclonesell.sign.create.price: true
+      cyclonesell.sign.create.buy: true
+  cyclonesell.sign.use.sell:
+    description: Allows you to use sell signs.
+    default: true
+  cyclonesell.sign.use.price:
+    description: Allows you to use price signs.
+    default: true
+  cyclonesell.sign.use.buy:
+      description: Allows you to use sell signs.
+      default: true
+  cyclonesell.sign.create.sell:
+    description: Allows you to create sell signs.
+    default: op
+  cyclonesell.sign.create.price:
+    description: Allows you to create price signs.
+    default: op
+  cyclonesell.sign.create.buy:
+      description: Allows you to create sell signs.
+      default: op
+  cyclonesell.help:
+    description: Allows you to get command help.
+    default: op
+  cyclonesell.reload:
+    description: Allows you to reload the plugin.
+    default: op

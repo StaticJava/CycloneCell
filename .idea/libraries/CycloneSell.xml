@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CycloneSell">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/CycloneSell/CycloneSell.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
